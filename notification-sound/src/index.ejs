@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'" />-->
+	<title>通知 声音</title>
+	<style>
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+            background: #FFF;
+		}
+        #content {
+            width:100%;
+            height:100%;
+            color: aliceblue;
+            background: darkslategray;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+	</style>
+</head>
+
+<body>
+	<div id="content">
+		<h2>这是一个带声音提醒的通知示例项目。</h2>
+		<div>
+			<label>一般通知：</label>
+			<button id="info">消息</button>
+			<button id="success">成功</button>
+			<button id="warning">警告</button>
+			<button id="error">错误</button>
+		</div>
+		<div>
+			<label>声音提示：</label>
+			<input id="text" value="警告！" placeholder="修改内容改变提示声音">
+			<button id="info_s">消息</button>
+			<button id="success_s">成功</button>
+			<button id="warning_s">警告</button>
+			<button id="error_s">错误</button>
+		</div>
+	</div>
+</body>
+
+</html>

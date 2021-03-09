@@ -1,18 +1,18 @@
 {
-    "name": "webpack_typescript",
+    "name": "notification_sound",
     "version": "1.0.0",
     "minSmartSdkVersion": "1.0.0",
-    "description": "使用TS构建一个无界面的插件",
+    "description": "桌面通知和声音通知",
     "author": "中泰证券股份有限公司",
-    "menuText": "Typescript Demo",
+    "menuText": "声音通知 Demo",
     "plugin_type": "PLUGIN_TYPE_SMART",
     "plugin_domain": "PLUGIN_DOMAIN_TRADE_MANUAL",
     "keywords": [
         "xtp",
         "smartx",
         "plugin",
-        "webpack",
-        "typescript"
+        "notification",
+        "sound"
     ],
     "isPublic": false,
     "isOpensource": false,

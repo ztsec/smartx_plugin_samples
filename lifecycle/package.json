@@ -16,7 +16,7 @@
     "isPublic": false,
     "isOpensource": false,
     "homepage": "",
-    "main": "index.js",
+    "main": "index.html",
     "scripts": {
         "watch": "webpack --watch --color",
         "build": "webpack --color",
