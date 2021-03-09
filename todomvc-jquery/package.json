@@ -1,17 +1,17 @@
 {
-    "name": "hello_world",
+    "name": "todomvc",
     "version": "1.0.0",
     "minSmartSdkVersion": "1.0.0",
     "description": "你的第一个插件",
-    "author": "中泰证券股份有限公司",
-    "menuText": "Hello World",
+    "author": "tastejs",
+    "menuText": "jQuery • TodoMVC",
     "plugin_type": "PLUGIN_TYPE_SMART",
     "plugin_domain": "PLUGIN_DOMAIN_TRADE_MANUAL",
     "keywords": [
         "xtp",
         "smartx",
         "plugin",
-        "hello world"
+        "Todo List"
     ],
     "isPublic": false,
     "isOpensource": false,
@@ -19,7 +19,13 @@
     "main": "index.html",
     "scripts": {},
     "rely_items": {},
-    "dependencies": {},
+    "dependencies": {
+        "director": "~1.2.2",
+        "handlebars": "~2.0.0",
+        "jquery": "~2.1.1",
+        "todomvc-app-css": "^2.1.0",
+        "todomvc-common": "~1.0.1"
+    },
     "devDependencies": {},
     "changeLog": ""
 }
