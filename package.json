@@ -1,0 +1,21 @@
+{
+  "name": "smartx-plugin-samples",
+  "version": "1.0.0",
+  "description": "中泰证券xtp smartx客户端插件样例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zts",
+    "xtp",
+    "smartx",
+    "xtp-smart",
+    "plugin",
+    "sample",
+    "extensions"
+  ],
+  "author": "郑魏义",
+  "license": "ISC",
+  "devDependencies": {}
+}

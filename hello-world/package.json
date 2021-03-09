@@ -1,0 +1,25 @@
+{
+    "name": "hello_world",
+    "version": "1.0.0",
+    "minSmartSdkVersion": "1.0.0",
+    "description": "你的第一个插件",
+    "author": "中泰证券股份有限公司",
+    "menuText": "Hello World",
+    "plugin_type": "PLUGIN_TYPE_SMART",
+    "plugin_domain": "PLUGIN_DOMAIN_TRADE_MANUAL",
+    "keywords": [
+        "xtp",
+        "smartx",
+        "plugin",
+        "hello world"
+    ],
+    "isPublic": false,
+    "isOpensource": false,
+    "homepage": "",
+    "main": "index.js",
+    "scripts": {},
+    "rely_items": {},
+    "dependencies": {},
+    "devDependencies": {},
+    "changeLog": ""
+}
