@@ -34,6 +34,7 @@ QQ 交流群： 659577632
 
 ### UI
 
+* `hello-world-vue`: 使用vue技术栈实现的hello-world工程
 * `widgets`: 
 * `style`: 
 * `charts`: 
