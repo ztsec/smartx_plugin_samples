@@ -1,0 +1,30 @@
+{
+    "editor.rulers": [
+        120
+    ],
+    "editor.formatOnSave": true,
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.defaultFormatter.html": "prettyhtml",
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatterOptions": {
+        "prettyhtml": {
+            "printWidth": 120
+        },
+        "prettier": {
+            "printWidth": 120
+        }
+    },
+    "vetur.validation.interpolation": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ]
+}
