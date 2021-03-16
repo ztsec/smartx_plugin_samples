@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'" />-->
+	<title>行情</title>
+	<style>
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+            background: #FFF;
+		}
+        #content {
+            width:100%;
+            height:100%;
+            color: aliceblue;
+            background: darkslategray;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+	</style>
+</head>
+
+<body>
+	<div id="content">
+		<h2>这是一个行情订阅的示例项目。</h2>
+		<div>
+			<label>订阅行情：</label>
+			<input id="sub_code" value="" placeholder="股票代码.市场"> 例如 600000.SH
+			<button id="info_s">订阅</button>
+		</div>
+		<div>
+			<label>取消订阅行情：</label>
+			<input id="unsub_code" value="" placeholder="股票代码.市场"> 例如 600000.SH
+			<button id="info_us">取消订阅</button>
+		</div>
+		<div>
+			<label>订阅列表：</label>
+			<ol id="list">
+				<li></li>
+			</ol>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -28,7 +28,7 @@ QQ 交流群： 659577632
 * `lifecycle`: 展示插件的生命周期
 * `notification`: TODO
 * `log`: TODO
-* `quote`: TODO
+* `quote`: 获取行情信息的插件
 * `kungfu`: TODO
 * `notification-sound`: 插件在后台发送通知，特别是在插件在后台运行的情况下。
 
@@ -37,6 +37,6 @@ QQ 交流群： 659577632
 * `hello-world-vue`: 使用vue技术栈实现的hello-world工程
 * `widgets`: 
 * `style`: 
-* `charts`: 
+* `charts`: 使用Echarts图标组件展示交易数据。
 
 ### 集成
