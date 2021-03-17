@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'" />-->
+	<title>KungFu</title>
+	<style>
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+            background: #FFF;
+		}
+        #content {
+            width:100%;
+            height:100%;
+            color: aliceblue;
+            background: darkslategray;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .pull-left {
+            float: left;
+        }
+        section {
+            margin-right: 40px;
+            min-width: 300px;
+            max-width: 900px;
+            overflow: auto;
+            max-height: calc(100% - 70px);
+        }
+        #list li {
+            cursor: pointer;
+        }
+	</style>
+</head>
+
+<body>
+	<div id="content">
+        <h2>这是一个操作后台策略的示例项目。</h2>
+        <section class="pull-left">
+            <div>
+                <label>MD状态：</label>
+                <span id="md"></span>
+                <button id="btnStartMd">启动MD</button>
+            </div>
+            <div>
+                <label>TD状态：</label>
+                <span id="td"></span>
+                <button id="btnStartTd">启动TD</button>
+            </div>
+            <div>
+                <label>策略列表：</label>
+                <ol id="list"></ol>
+            </div>
+        </section>
+        <section class="pull-left">
+            <div data-sid="">
+                <label>基本信息：</label><br/>
+                <button id="load">加载</button>
+                <button id="btnStartStrategy">启动</button>
+                <button id="btnstopStrategy">停止</button><br/>
+                <input id="msg" value="" placeholder="要发送的信息">
+			    <button id="btnSendMsg">发送消息</button>
+                <ul id="info"></ul>
+            </div>
+            <div>
+                <label>资产：</label>
+                <ul id="book"></ul>
+            </div>
+            <div>
+                <label>持仓：</label>
+                <ol id="positions"></ol>
+            </div>
+            <div>
+                <label>委托：</label>
+                <ol id="orders"></ol>
+            </div>
+            <div>
+                <label>成交：</label>
+                <ol id="trades"></ol>
+            </div>
+        </section>
+        <section class="pull-left">
+            <div>
+                <label>详情：</label>
+                <ul id="items"></ul>
+            </div>
+        </section>
+	</div>
+</body>
+
+</html>

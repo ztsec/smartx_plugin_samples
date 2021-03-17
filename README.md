@@ -29,7 +29,7 @@ QQ 交流群： 659577632
 * `notification`: TODO
 * `log`: TODO
 * `quote`: 获取行情信息的插件
-* `kungfu`: TODO
+* `kungfu`: 操作存放在机房的KungFu策略
 * `notification-sound`: 插件在后台发送通知，特别是在插件在后台运行的情况下。
 
 ### UI
