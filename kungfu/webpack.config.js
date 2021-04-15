@@ -61,5 +61,8 @@ module.exports = {
                 to: path.join(pluginRootPath, path.basename(__dirname), 'package.json')
             }
         ]),
-    ]
+    ],
+    resolve: {
+        extensions: ['.ts', '.js']
+    }
 }

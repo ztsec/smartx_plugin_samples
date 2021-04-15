@@ -134,5 +134,8 @@ module.exports = {
             '@': path.join(__dirname, 'src'),
         },
         extensions: ['.ts', '.js', '.vue', '.json', '.css']
+    },
+    resolve: {
+        extensions: ['.ts', '.js']
     }
 }

@@ -103,6 +103,7 @@ namespace demo {
             if (!text) {
                 text = (document.getElementById("unsub_code") as HTMLInputElement).value;
             }
+            text = text.trim();
 
             if (!text || !this.subList.includes(text)) {
                 return;
