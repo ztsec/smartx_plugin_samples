@@ -1,10 +1,10 @@
 {
-    "name": "xtp-smart_ui_kline_vue",
+    "name": "widgets_kline",
     "version": "1.0.0",
-    "minSmartSdkVersion": "1.0.0",
-    "description": "@xtp-smart/ui kline vue组件展示",
+    "minSmartSdkVersion": "1.1.0",
+    "description": "@xtp-smart/ui K线 vue组件展示",
     "author": "中泰证券股份有限公司",
-    "menuText": "@xtp-smart/ui kline vue",
+    "menuText": "K线展示",
     "plugin_type": "PLUGIN_TYPE_SMART",
     "plugin_domain": "PLUGIN_DOMAIN_QUOTE",
     "keywords": [
@@ -12,8 +12,10 @@
         "smartx",
         "plugin",
         "@xtp-smart/ui",
-        "Kline",
-        "vue"
+        "K线",
+        "Candlestick",
+        "vue",
+        "quote"
     ],
     "isPublic": false,
     "isOpensource": false,
@@ -27,13 +29,13 @@
     "rely_items": {},
     "dependencies": {
         "iview": "^2.13.0",
+        "@xtp-smart/sdk": "*",
         "@xtp-smart/ui": "^0.9.5"
     },
     "devDependencies": {
         "@babel/core": "^7.9.0",
         "@babel/preset-env": "^7.9.5",
         "@vue/test-utils": "^1.0.0",
-        "@xtp-smart/sdk": "*",
         "ajv": "^6.5.0",
         "babel-loader": "^8.1.0",
         "cfonts": "^2.1.2",
@@ -43,7 +45,7 @@
         "config-webpack": "^1.0.4",
         "copy-webpack-plugin": "^4.5.1",
         "cross-env": "^5.1.6",
-        "css-loader": "^2.1.0",
+        "css-loader": "^5.2.7",
         "del": "^3.0.0",
         "file-loader": "^4.0.0",
         "html-webpack-plugin": "^3.2.0",
