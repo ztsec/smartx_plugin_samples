@@ -38,5 +38,6 @@ QQ 交流群： 659577632
 * `widgets`: 
 * `style`: 
 * `charts`: 使用Echarts图标组件展示交易数据。
+* `candlestick`: K线图组件
 
 ### 集成

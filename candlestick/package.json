@@ -1,5 +1,5 @@
 {
-    "name": "widgets_kline",
+    "name": "widgets_candlestick",
     "version": "1.0.0",
     "minSmartSdkVersion": "1.1.0",
     "description": "@xtp-smart/ui K线 vue组件展示",
