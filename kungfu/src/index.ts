@@ -210,9 +210,9 @@ namespace demo {
             }
             try {
                 const result = await strategy.stopStrategy();
-                console.info("strategy 启动成功", result);
+                console.info("strategy 停止失败", result);
             } catch (error) {
-                console.error("strategy 启动失败", error, error.code, error.data);
+                console.error("strategy 停止失败", error, error.code, error.data);
             }
         }
 
