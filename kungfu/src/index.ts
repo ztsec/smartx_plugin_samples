@@ -163,7 +163,7 @@ namespace demo {
                 console.info("td 已经启动！", account)
                 return;
             }
-            const strategy = Object.values(this.strategies)[0];
+            const strategy = Object.values(this.strategies).find(str => str.strategy_platform_type === "AlphaX")
             // 一个很尴尬的事情，startTD必须使用一个strategy对象启动
             if (!strategy) {
                 console.error("没有一个strategy，无法启动td");
