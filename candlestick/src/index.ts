@@ -4,11 +4,11 @@ import Vue from 'vue';
 // 导入变量声明
 import { smart, Event } from "@xtp-smart/sdk";
 
+import smartx_ui from '@xtp-smart/ui';
+
 // 引入插件开发的vue组件
 // @ts-ignore
 import App from './App.vue';
-
-import smartx_ui from '@xtp-smart/ui';
 
 console.log(smartx_ui)
 Vue.use(smartx_ui)

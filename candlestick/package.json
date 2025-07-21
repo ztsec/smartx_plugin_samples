@@ -30,7 +30,7 @@
     "dependencies": {
         "iview": "^2.13.0",
         "@xtp-smart/sdk": "*",
-        "@xtp-smart/ui": "^0.9.5"
+        "@xtp-smart/ui": "^0.9.16"
     },
     "devDependencies": {
         "@babel/core": "^7.9.0",
